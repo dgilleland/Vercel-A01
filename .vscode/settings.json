@@ -1,5 +1,13 @@
 {
-    "chat.disableAIFeatures": true,
-    "github.copilot.enable": { "*": false }
+    "chat.disableAIFeatures": false,
+    "github.copilot.enable": {
+        "*": false
+    },
+    "yaml.schemas": {
+        "file:///c%3A/Users/DGilleland/.vscode/extensions/your-publisher.lesson-dsl-yaml-0.1.0/schemas/lesson.schema.json": [
+            "**/*.lesson.yaml",
+            "**/*.lesson.yml"
+        ]
+    }
 }
  
