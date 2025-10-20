@@ -1,7 +1,10 @@
 {
     "chat.disableAIFeatures": false,
     "github.copilot.enable": {
-        "*": false
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
     },
     "yaml.schemas": {
         "file:///c%3A/Users/DGilleland/.vscode/extensions/your-publisher.lesson-dsl-yaml-0.1.0/schemas/lesson.schema.json": [

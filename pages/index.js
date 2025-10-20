@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
+import packageInfo from '../package.json';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,6 +27,9 @@ export default function Home() {
           priority
         />
         <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
+          <li className="mb-2 tracking-[-.01em]">
+            Version {packageInfo.version}
+          </li>
           <li className="mb-2 tracking-[-.01em]">
             Get started by editing{" "}
             <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
